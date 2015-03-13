@@ -7,8 +7,8 @@ import java.util.Objects;
  */
 public class Chance {
     private double value;
-    private  static  final double CERTINITY=100;
-    private  static  final double UNCERTINITY=0;
+    private  static  final double CERTINITY = 100;
+    private  static  final double UNCERTINITY = 0;
 
     private Chance(double value) {
         this.value =value;
@@ -16,7 +16,7 @@ public class Chance {
     }
 
     public static Chance createChance(double value) {
-        if(value>=UNCERTINITY&&value<=CERTINITY){
+        if(value>=UNCERTINITY && value<=CERTINITY){
             return  new Chance(value);
         }
 
