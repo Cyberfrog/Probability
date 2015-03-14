@@ -26,10 +26,10 @@ public class LengthTest {
         assertFalse(feet.equals(inch));
     }
 
-//    @Test
-//    public void test_one_feet_is_equal_0p4_centimeters() {
-//        Length feet = new Length(1, UnitComparator.Units.Feet);
-//        Length centimeter = new Length(30.48, UnitComparator.Units.Centimeter);
-//        assertTrue(feet.equals(centimeter));
-//    }
+    @Test
+    public void test_one_feet_is_equal_0p4_centimeters() {
+        Length feet = new Length(1, UnitComparator.Units.Feet);
+        Length centimeter = new Length(30.48, UnitComparator.Units.Centimeter);
+        assertTrue(feet.equals(centimeter));
+    }
 }
