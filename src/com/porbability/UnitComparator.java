@@ -20,7 +20,4 @@ public class UnitComparator {
     public static double getFactor(Units unit) {
         return inchesConversionFactor.get(unit);
     }
-
-
-
 }
